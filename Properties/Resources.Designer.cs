@@ -91,6 +91,16 @@ namespace Valentine.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] scene1_sound_bg {
+            get {
+                object obj = ResourceManager.GetObject("scene1_sound_bg", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Where is my girlfriend?
         ///Hope she stay home like me :(
         ///How to meet her?

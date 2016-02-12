@@ -10,6 +10,7 @@ namespace Valentine.x16
         private Random rand = new Random(DateTime.Now.Millisecond);
         private List<DrawableObject> objects = new List<DrawableObject>();
         private List<Image> imageRes = new List<Image>();
+        private FileCache backgroundSoundFile = new FileCache(Resources.scene1_sound_bg, "mp3");
 
         public void Update(Rectangle bound)
         {
@@ -43,6 +44,7 @@ namespace Valentine.x16
             imageRes.Add(Resources.heart2);
             imageRes.Add(Resources.heart3);
             GenerateTextObject(100.0f, 100.0f);
+            SoundManager.GetInstance().PlayFile(backgroundSoundFile.FilePath, true);
         }
 
         public void Destroy()
@@ -51,6 +53,8 @@ namespace Valentine.x16
             {
                 image.Dispose();
             }
+            SoundManager.GetInstance().Stop();
+            backgroundSoundFile.Dispose();
         }
     }
 }

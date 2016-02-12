@@ -38,6 +38,7 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileCache.cs" />
     <Compile Include="ISceneManager.cs" />
     <Compile Include="ISurface.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -45,6 +46,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="SoundManager.cs" />
     <Compile Include="x16\DrawableObject.cs" />
     <Compile Include="x16\frmMain.cs">
       <SubType>Form</SubType>
@@ -74,6 +76,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\heart3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene1_sound_bg.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -45,6 +45,7 @@ namespace Valentine.x16
             surface.OnUpdate -= Surface_OnUpdate;
             surface.OnTouch -= Surface_OnTouch;
             sceneManager.Destroy();
+            SoundManager.DestroyInstance();
         }
     }
 }
