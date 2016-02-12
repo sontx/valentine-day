@@ -118,6 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="angel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angel3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angel3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angel4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angel4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="heart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\heart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -127,15 +139,90 @@
   <data name="heart3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\heart3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="me" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\me.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="placeholder1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\placeholder1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="placeholder2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\placeholder2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="placeholder3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\placeholder3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="placeholder4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\placeholder4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="placeholder5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\placeholder5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="placeholder6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\placeholder6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="placeholder7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\placeholder7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="placeholder8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\placeholder8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raindrop1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raindrop1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raindrop2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raindrop2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="scene1_sound_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scene1_sound_bg.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="sentences" xml:space="preserve">
-    <value>Where is my girlfriend?
-Hope she stay home like me :(
-How to meet her?
-She loves me or not?
-She has a boyfriend?
-Should not her appointment?</value>
+  <data name="scene2_sound_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scene2_sound_bg.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scene3_sound_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scene3_sound_bg.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sentences1" xml:space="preserve">
+    <value>Remember when, we never needed each other
+The best of friends like
+Sister and Brother
+We understood, we'd never be.....Alone
+Those days are gone, and I want you so much
+The night is long and I need your touch
+Don't know what to say
+I never meant to feel this way
+Don't want to be...Alone tonight
+What can I do, to make you mine
+Falling so hard so fast this time
+What did I say, what did you do?
+How did I fall in love with you?
+I hear your voice
+And I start to tremble
+Brings back the child that, I resemble
+I cannot pretend, that we can still be friends
+Don't want to be...Alone tonight
+Oh! I want to say this right
+And it has to be tonight
+Just need you to know!
+I don't want to live this life
+I don't want to say goodbye
+With you I wanna spend
+The rest of my life....</value>
+  </data>
+  <data name="sentences2" xml:space="preserve">
+    <value>If I never met you...
+I wouldn’t like you.
+If I didn’t like you...
+I would not love you...
+If I didn’t love you...
+I wouldn’t miss you...
+But I did, I do and I will.
+Love you so much…kisses</value>
+  </data>
+  <data name="sentences3" xml:space="preserve">
+    <value>Alone
+Aloneeeee
+I'm alone.....
+Forever alone
+I'm single.....</value>
   </data>
 </root>

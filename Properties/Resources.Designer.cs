@@ -63,6 +63,46 @@ namespace Valentine.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap angel1 {
+            get {
+                object obj = ResourceManager.GetObject("angel1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap angel2 {
+            get {
+                object obj = ResourceManager.GetObject("angel2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap angel3 {
+            get {
+                object obj = ResourceManager.GetObject("angel3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap angel4 {
+            get {
+                object obj = ResourceManager.GetObject("angel4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap heart1 {
             get {
                 object obj = ResourceManager.GetObject("heart1", resourceCulture);
@@ -91,6 +131,116 @@ namespace Valentine.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap me {
+            get {
+                object obj = ResourceManager.GetObject("me", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap placeholder1 {
+            get {
+                object obj = ResourceManager.GetObject("placeholder1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap placeholder2 {
+            get {
+                object obj = ResourceManager.GetObject("placeholder2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap placeholder3 {
+            get {
+                object obj = ResourceManager.GetObject("placeholder3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap placeholder4 {
+            get {
+                object obj = ResourceManager.GetObject("placeholder4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap placeholder5 {
+            get {
+                object obj = ResourceManager.GetObject("placeholder5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap placeholder6 {
+            get {
+                object obj = ResourceManager.GetObject("placeholder6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap placeholder7 {
+            get {
+                object obj = ResourceManager.GetObject("placeholder7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap placeholder8 {
+            get {
+                object obj = ResourceManager.GetObject("placeholder8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap raindrop1 {
+            get {
+                object obj = ResourceManager.GetObject("raindrop1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap raindrop2 {
+            get {
+                object obj = ResourceManager.GetObject("raindrop2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] scene1_sound_bg {
@@ -101,16 +251,75 @@ namespace Valentine.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Where is my girlfriend?
-        ///Hope she stay home like me :(
-        ///How to meet her?
-        ///She loves me or not?
-        ///She has a boyfriend?
-        ///Should not her appointment?.
+        ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static string sentences {
+        internal static byte[] scene2_sound_bg {
             get {
-                return ResourceManager.GetString("sentences", resourceCulture);
+                object obj = ResourceManager.GetObject("scene2_sound_bg", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] scene3_sound_bg {
+            get {
+                object obj = ResourceManager.GetObject("scene3_sound_bg", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remember when, we never needed each other
+        ///The best of friends like
+        ///Sister and Brother
+        ///We understood, we&apos;d never be.....Alone
+        ///Those days are gone, and I want you so much
+        ///The night is long and I need your touch
+        ///Don&apos;t know what to say
+        ///I never meant to feel this way
+        ///Don&apos;t want to be...Alone tonight
+        ///What can I do, to make you mine
+        ///Falling so hard so fast this time
+        ///What did I say, what did you do?
+        ///How did I fall in love with you?
+        ///I hear your voice
+        ///And I start to tremble
+        ///Brings back the child that,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string sentences1 {
+            get {
+                return ResourceManager.GetString("sentences1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If I never met you...
+        ///I wouldn’t like you.
+        ///If I didn’t like you...
+        ///I would not love you...
+        ///If I didn’t love you...
+        ///I wouldn’t miss you...
+        ///But I did, I do and I will.
+        ///Love you so much…kisses.
+        /// </summary>
+        internal static string sentences2 {
+            get {
+                return ResourceManager.GetString("sentences2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alone
+        ///Aloneeeee
+        ///I&apos;m alone.....
+        ///Forever alone
+        ///I&apos;m single......
+        /// </summary>
+        internal static string sentences3 {
+            get {
+                return ResourceManager.GetString("sentences3", resourceCulture);
             }
         }
     }

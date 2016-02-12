@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Valentine.x16
@@ -19,7 +15,12 @@ namespace Valentine.x16
             Dock = DockStyle.Fill;
             DoubleBuffered = true;
         }
-       
+
+
+        public int ScreenWidth { get { return Width; } }
+
+        public int ScreenHeight { get { return Height; } }
+
         protected override void OnClick(EventArgs e)
         {
             Point point = PointToClient(Cursor.Position);
@@ -34,6 +35,11 @@ namespace Valentine.x16
             if (OnUpdate != null)
                 OnUpdate(e.ClipRectangle);
             Invalidate();
+        }
+
+        public void RunSafe(Delegate method)
+        {
+            Invoke(method);
         }
     }
 }

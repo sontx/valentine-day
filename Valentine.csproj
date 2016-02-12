@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,18 +48,26 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="SoundManager.cs" />
-    <Compile Include="x16\DrawableObject.cs" />
+    <Compile Include="x16\App.cs" />
+    <Compile Include="x16\GameObject.cs" />
     <Compile Include="x16\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="x16\ImageObject.cs" />
+    <Compile Include="x16\ImageTextObject.cs" />
+    <Compile Include="x16\MovableStyle5Object.cs" />
+    <Compile Include="x16\MovableStyle4Object.cs" />
+    <Compile Include="x16\MovableStyle3Object.cs" />
+    <Compile Include="x16\MovableStyle2Object.cs" />
+    <Compile Include="x16\MovableStyle1Object.cs" />
+    <Compile Include="x16\Scene2Manager.cs" />
+    <Compile Include="x16\Scene1Manager.cs" />
+    <Compile Include="x16\Scene3Manager.cs" />
     <Compile Include="x16\SceneManager.cs" />
     <Compile Include="x16\Surface.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="x16\TextObject.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -90,6 +99,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\scene1_sound_bg.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angel4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene2_sound_bg.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene3_sound_bg.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\me.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raindrop2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raindrop1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

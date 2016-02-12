@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System;
 
 namespace Valentine
 {
@@ -8,8 +9,11 @@ namespace Valentine
 
     public interface ISurface
     {
+        int ScreenWidth { get; }
+        int ScreenHeight { get; }
         event OnDrawEventHandler OnDraw;
         event OnUpdateEventHandler OnUpdate;
         event OnTouchEventHandler OnTouch;
+        void RunSafe(Delegate method);
     }
 }
