@@ -13,7 +13,7 @@ namespace Valentine
 
         public FileCache(Stream stream, string extention = null)
         {
-            FilePath = Path.GetTempFileName() + (extention != null ? "." + extention : "");
+            FilePath = Path.Combine(Path.GetTempPath(), Path.GetRandomFileName() + (extention != null ? "." + extention : ".tmp"));
             using (var fs = File.OpenWrite(FilePath))
             {
                 byte[] buffer = new byte[32 * 1024];
