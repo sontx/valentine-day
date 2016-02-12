@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Valentine.x16
 {
@@ -12,6 +8,10 @@ namespace Valentine.x16
         private Image textrure;
         private float scale = (float) rand.NextDouble() + 0.2f;
         private RectangleF textureRect;
+        private float time = 0.0f;
+        private float A = (float) rand.NextDouble() * 70.0f + 30.0f;
+        private float angularVelocity = (float)(Math.PI * (rand.NextDouble() + 0.5f));
+        private float x0;
 
         public ImageObject(float x, float y, Image src) : base(x, y)
         {
@@ -20,6 +20,7 @@ namespace Valentine.x16
             rect.Height = textrure.Height * scale;
             textureRect = new RectangleF(0.0f, 0.0f, textrure.Width, textrure.Height);
             speedy = Math.Abs(speedy);
+            x0 = x;
         }
 
         public bool IsDisappear()
@@ -35,6 +36,8 @@ namespace Valentine.x16
         public override void Update(Rectangle bound)
         {
             rect.Y -= speedy;
+            rect.X = x0 + A * (float) Math.Sin(time * angularVelocity);
+            time += 0.01f;
         }
     }
 }
