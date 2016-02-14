@@ -17,6 +17,7 @@ namespace Valentine.x16
             angels.Add(Resources.angel2);
             angels.Add(Resources.angel3);
             angels.Add(Resources.angel4);
+            waitEachSentence = 13000;
         }
 
         protected override void PrepareMajor()

@@ -26,6 +26,7 @@ namespace Valentine.x16
             girlPhotos.Add(Resources.placeholder6);
             girlPhotos.Add(Resources.placeholder7);
             girlPhotos.Add(Resources.placeholder8);
+            waitEachSentence = 15000;
         }
 
         private void GenerateObjects(bool first = false)

@@ -18,6 +18,7 @@ namespace Valentine.x16
         private FileCache backgroundSoundFile;
         private bool isMajorScene = false;
         private int countOfSentenceVisiable;
+        protected int waitEachSentence = WAIT_EACH_SENTENCE;
 
         private string[] SplitSentences(string st)
         {
@@ -51,7 +52,7 @@ namespace Valentine.x16
                 {
                     string sentence = stringRes[i];
                     App.GetInstance().Surface.RunSafe((MethodInvoker)delegate { PopSentence(sentence); });
-                    await Task.Delay(WAIT_EACH_SENTENCE);
+                    await Task.Delay(waitEachSentence);
                 }
                 stringRes.Clear();
             });
