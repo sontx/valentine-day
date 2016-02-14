@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Windows.Forms;
 
 namespace Valentine.x16
@@ -126,6 +127,7 @@ namespace Valentine.x16
             }
             public override void Draw(Graphics g)
             {
+                g.TextRenderingHint = TextRenderingHint.AntiAlias;
                 g.DrawString(text, font, brush, dispRect.X, dispRect.Y);
             }
         }
