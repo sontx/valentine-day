@@ -1,6 +1,12 @@
 ![](https://lh3.googleusercontent.com/-LeUIeOo2JO4/Vr4StoT0NXI/AAAAAAAAOCs/6jnkf3Zt740/s0/valentine-day-proj-banner.png "banner")
 
 **valentine-day** is a funny project for valentine day base on C# Winform. This project just draw somethings in a panel and play a background sound.  Sound files and texts has been embed into executable file, so we just have an executable file for release.
+
+Demo video:
+<a href="https://youtu.be/gkY26fvRMtw">
+![](https://lh3.googleusercontent.com/-JFm1_YlGweg/VsB7T9LdSyI/AAAAAAAAOE4/rlfcKyUT3Ak/s0/Capture.PNG "Demo")
+</a>
+
 ## Installation
 This project require .Net 4.5 or higher, you can use [Visual Studio](https://www.visualstudio.com/) to open and edit this project.
 If you just want to modified something such as text or images contents for yourself, you need some steps below:
