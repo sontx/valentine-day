@@ -243,6 +243,16 @@ namespace Valentine.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] RixLoveFool {
+            get {
+                object obj = ResourceManager.GetObject("RixLoveFool", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] scene1_sound_bg {
             get {
                 object obj = ResourceManager.GetObject("scene1_sound_bg", resourceCulture);
@@ -311,11 +321,11 @@ namespace Valentine.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Alone
+        ///   Looks up a localized string similar to Alone!
         ///Aloneeeee
         ///I&apos;m alone.....
-        ///Forever alone
-        ///I&apos;m single......
+        ///I&apos;m forever alone!!!!!
+        ///Tell me why!!.
         /// </summary>
         internal static string sentences3 {
             get {

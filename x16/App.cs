@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
+using Valentine.Properties;
 
 namespace Valentine.x16
 {
@@ -22,8 +23,11 @@ namespace Valentine.x16
         }
         private ISceneManager sceneManager;
         private ISurface surface = new Surface();
+        private InternalFont internalFont = new InternalFont();
 
         public ISurface Surface { get { return surface; } }
+
+        public InternalFont InternalFont { get { return internalFont; } }
 
         private App()
         {
@@ -31,6 +35,7 @@ namespace Valentine.x16
             surface.OnUpdate += Surface_OnUpdate;
             surface.OnTouch += Surface_OnTouch;
             SoundManager.GetInstance();
+            internalFont.Init(Resources.RixLoveFool);
             NextScene();
         }
 
@@ -80,6 +85,7 @@ namespace Valentine.x16
             surface.OnTouch -= Surface_OnTouch;
             sceneManager.Destroy();
             SoundManager.DestroyInstance();
+            internalFont.Dispose();
         }
     }
 }

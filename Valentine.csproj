@@ -32,6 +32,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,6 +57,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="SoundManager.cs" />
+    <Compile Include="InternalFont.cs" />
     <Compile Include="x16\App.cs" />
     <Compile Include="x16\GameObject.cs" />
     <Compile Include="x16\frmMain.cs">
@@ -78,6 +88,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\app.manifest" />
     <None Include="Resources\heart1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +109,7 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\RixLoveFool.ttf" />
     <None Include="Resources\scene1_sound_bg.mp3" />
   </ItemGroup>
   <ItemGroup>

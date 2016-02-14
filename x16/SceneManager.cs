@@ -31,7 +31,7 @@ namespace Valentine.x16
             Task.Run(() => 
             {
                 backgroundSoundFile = new FileCache(backgroundSound, "mp3");
-                SoundManager.GetInstance().PlayFile(backgroundSoundFile.FilePath);
+                SoundManager.GetInstance().PlayFile(backgroundSoundFile.FilePath, true);
             });
             MovableStyle4Object titleObj = new MovableStyle4Object(50.0f, 100.0f, sceneTitle, 
                 Color.DeepPink, new Font(FontFamily.GenericSansSerif, 30.0f));
