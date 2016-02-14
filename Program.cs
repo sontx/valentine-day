@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Drawing;
+using System.Diagnostics;
+using System.Threading;
 using System.Windows.Forms;
 using Valentine.x16;
 
@@ -13,6 +14,8 @@ namespace Valentine
         [STAThread]
         static void Main()
         {
+            Process.GetCurrentProcess().PriorityClass = ProcessPriorityClass.High;
+            Thread.CurrentThread.Priority = ThreadPriority.Highest;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmMain());
