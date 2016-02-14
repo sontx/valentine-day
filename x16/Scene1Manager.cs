@@ -38,8 +38,8 @@ namespace Valentine.x16
             ISurface surface = App.GetInstance().Surface;
             float x = surface.ScreenWidth / 2.0f + rand.Next(-300, 50);
             float y = surface.ScreenHeight - 10.0f;
-            Color color = Color.FromArgb(rand.Next(100, 255), 0, rand.Next(50, 255));
-            Font font = App.GetInstance().InternalFont.getFont(0, rand.Next(25, 30));
+            Color color = Color.FromArgb(rand.Next(10, 255), 0, rand.Next(10, 255));
+            Font font = App.GetInstance().InternalFont.getFont(0, rand.Next(35, 40));
             Image angel = angels[rand.Next(angels.Count)];
             GameObject obj = new MovableStyle2Object(x, y, 1.0f, angel, sentence, color, font);
             obj.Tag = TAG_SENTENCE;

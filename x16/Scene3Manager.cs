@@ -22,7 +22,7 @@ namespace Valentine.x16
         protected override void PopSentence(string sentence)
         {
             Color color = Color.FromArgb(rand.Next(255), rand.Next(255), rand.Next(255));
-            Font font = App.GetInstance().InternalFont.getFont(0, rand.Next(25, 30));
+            Font font = App.GetInstance().InternalFont.getFont(0, rand.Next(35, 40));
             objects.Insert(0, new MovableStyle1Object(100.0f, 100.0f, 0.0f, null, sentence, color, font));
         }
 
